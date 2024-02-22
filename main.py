@@ -7,9 +7,9 @@ from mailchimp_marketing.api_client import ApiClientError
 
 
 def main():
-    project_id = 'spheric-terrain-312804'
-    dataset = 'mailchimp_test'
-    credentials = service_account.Credentials.from_service_account_file('./bq-service-account.json')
+    project_id = ''
+    dataset = ''
+    credentials = service_account.Credentials.from_service_account_file('')
     today = datetime.now()
     print(f'Pulling date: {today}')
 
