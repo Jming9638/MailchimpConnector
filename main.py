@@ -8,7 +8,7 @@ from mailchimp_marketing.api_client import ApiClientError
 
 def main():
     project_id = ''
-    credentials = service_account.Credentials.from_service_account_file('./service-account.json')
+    credentials = service_account.Credentials.from_service_account_file('')
     today = datetime.now()
     print(f'Pulling date: {today}')
 
